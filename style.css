@@ -51,7 +51,7 @@ img {
   display: flex;
   flex-direction: row;
 }
-p {
+.maintext {
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -64,4 +64,74 @@ p {
   padding-right: 19px;
   border-color: #3882f6;
   margin-top: 10px;
+}
+.info {
+  color: #000;
+  font-size: 32px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 20px;
+}
+.one,
+.two,
+.there,
+.four {
+  padding: 50px;
+  display: flex;
+  background-color: transparent;
+  border: 3px solid #3882f6;
+  border-radius: 6px;
+}
+.info-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.first {
+  display: inline-flex;
+  width: 140px;
+  align-items: center;
+  flex-direction: column;
+}
+.seconed {
+  display: inline-flex;
+  width: 140px;
+  align-items: center;
+  flex-direction: column;
+}
+.thered {
+  display: inline-flex;
+  width: 140px;
+  align-items: center;
+  flex-direction: column;
+}
+.fourth {
+  display: inline-flex;
+  width: 140px;
+  align-items: center;
+  flex-direction: column;
+}
+.text {
+  text-align: center;
+}
+.filling-container {
+  margin-top: 100px;
+  background-color: #e5e7eb;
+  padding: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.filling {
+  font-size: 30px;
+  color: #1f2937;
+  font-style: italic;
+}
+.thor {
+  display: flex;
+  align-self: flex-end;
+  color: #000;
+  font-weight: bold;
 }
