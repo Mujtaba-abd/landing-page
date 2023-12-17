@@ -65,6 +65,11 @@ img {
   border-color: #3882f6;
   margin-top: 10px;
 }
+:hover.sing1 {
+  color: #3882f6;
+  background-color: #fff;
+  cursor: pointer;
+}
 .info {
   color: #000;
   font-size: 32px;
@@ -134,4 +139,44 @@ img {
   align-self: flex-end;
   color: #000;
   font-weight: bold;
+}
+.call-container {
+  margin: 80px;
+  display: flex;
+  flex-direction: column;
+  background-color: #3882f6;
+  padding: 50px;
+  border-radius: 8px;
+}
+.call,
+.sign2 {
+  color: #fff;
+}
+.call {
+  font-size: 20px;
+  font-weight: bold;
+}
+.sign0 {
+  background-color: #3882f6;
+  color: #fff;
+  border-color: #fff;
+  align-self: flex-end;
+  width: 100px;
+  padding: 6px;
+  border-radius: 10px;
+}
+.sign2 {
+  font-size: 19px;
+}
+:hover.sign0 {
+  color: #3882f6;
+  background-color: #fff;
+  cursor: pointer;
+}
+.footer {
+  background-color: #1f2937;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
 }
